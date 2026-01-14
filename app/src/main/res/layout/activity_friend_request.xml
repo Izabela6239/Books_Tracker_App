@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#311B92"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvRequestsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="24dp"
+        android:text="Cereri de prietenie"
+        android:textColor="#E6E6FA"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvNoRequests"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Nu ai nicio cerere nouă"
+        android:textColor="#B0A6E0"
+        android:textSize="16sp"
+        android:visibility="gone"
+        android:layout_marginTop="50dp"/>
+
+    <ListView
+        android:id="@+id/lvRequests"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="#4A2EB3"
+        android:dividerHeight="1dp"
+        android:listSelector="@android:color/transparent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnBackRequests"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:text="ÎNAPOI"
+        android:textColor="#E6E6FA"
+        app:rippleColor="#512DA8" />
+
+</LinearLayout>
