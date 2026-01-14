@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "186234642932",
+    "project_id": "bookstracker-549ac",
+    "storage_bucket": "bookstracker-549ac.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186234642932:android:4309ef526015400b9e19a1",
+        "android_client_info": {
+          "package_name": "com.example.bookstracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6K24wIH0_x84iDV_ffp_y4CtvpsrJJwk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

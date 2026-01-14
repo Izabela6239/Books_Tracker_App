@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/buttonScanISBN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pas 1: Scanează ISBN"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/editTextTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Titlu Carte"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/editTextAuthor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Autor"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/editTextPublisher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Editură"
+            android:layout_marginBottom="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:baselineAligned="false">
+
+            <EditText
+                android:id="@+id/editTextPages"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Pagini"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/editTextRating"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Rating"
+                android:inputType="numberDecimal" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/editTextRatingsCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Număr voturi (Ratings Count)"
+            android:inputType="number"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status lectură:"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <Spinner
+            android:id="@+id/spinnerStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/buttonAddBook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pas 2: Salvează în Bibliotecă" />
+
+    </LinearLayout>
+</ScrollView>
